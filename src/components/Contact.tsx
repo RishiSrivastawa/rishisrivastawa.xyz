@@ -62,9 +62,9 @@ const workingHours = [
 
 export default function Contact() {
     return (
-        <section className="py-24 ">
+        <section className="py-24 relative bg-transparent">
             {/* Background Elements */}
-            <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-3"></div>
+            {/* <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-3"></div>
             <motion.div
                 className="absolute inset-0 bg-gradient-to-r from-emerald-600/5 to-slate-600/5"
                 animate={{
@@ -75,7 +75,7 @@ export default function Contact() {
                     ]
                 }}
                 transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
-            />
+            /> */}
 
             <div className="container px-4 mx-auto relative z-10 max-w-7xl">
                 <motion.div

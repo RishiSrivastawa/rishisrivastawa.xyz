@@ -55,9 +55,9 @@ const projects = [
 
 export default function Projects() {
     return (
-        <section className="py-24 ">
+        <section className="py-24 relative bg-transparent">
             {/* Background Elements */}
-            <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-3"></div>
+            {/* <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-3"></div>
             <motion.div
                 className="absolute inset-0 bg-gradient-to-r from-emerald-600/5 to-slate-600/5"
                 animate={{
@@ -68,7 +68,7 @@ export default function Projects() {
                     ]
                 }}
                 transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
-            />
+            /> */}
 
             <div className="container px-6 mx-auto max-w-7xl relative z-10">
                 <motion.div

@@ -127,6 +127,7 @@
     background-attachment: fixed;
   }
 
+
   /* Improved scrollbar styling */
   ::-webkit-scrollbar {
     width: 8px;
@@ -293,4 +294,5 @@ html {
     background: white !important;
   }
 }
+
 

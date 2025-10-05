@@ -54,9 +54,9 @@ export default function Footer() {
     }
 
     return (
-        <footer className="">
+        <footer className="relative bg-transparent">
             {/* Background Pattern */}
-            <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-3"></div>
+            {/* <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-3"></div>
             <motion.div
                 className="absolute inset-0 bg-gradient-to-r from-emerald-600/5 to-slate-600/5"
                 animate={{
@@ -67,7 +67,7 @@ export default function Footer() {
                     ]
                 }}
                 transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
-            />
+            /> */}
 
             <div className="container px-4 mx-auto relative z-10 max-w-7xl">
                 {/* Main Footer Content */}
