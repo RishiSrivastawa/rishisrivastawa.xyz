@@ -238,9 +238,9 @@ export default function About() {
                       <h4 className="text-lg font-semibold text-white">
                         {exp.title}
                       </h4>
-                      <p className="text-emerald-400 font-medium">
+                      {/* <p className="text-emerald-400 font-medium">
                         {exp.company}
-                      </p>
+                      </p> */}
                       <p className="text-sm text-gray-400 mb-2">{exp.period}</p>
                       <p className="text-gray-300">{exp.description}</p>
                     </div>
