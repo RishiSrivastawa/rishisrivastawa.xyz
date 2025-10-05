@@ -8,45 +8,45 @@ import Image from "next/image"
 
 const projects = [
     {
-        title: "Finance tracker - A fullstack online  platform",
-        description: "A full-stack online learning platform, supporting the entire lifecycle from course creation to student enrollment. Including sequential lecture access, progress tracking, and automated real-time quiz scoring. Secure role-based authorization and authentication (Student/Instructor).",
-        tech: ["Next.js", "TypeScript", "Prisma", "MongoDB", "Tailwind CSS", "UploadThing", "NextAuth"],
-        liveUrl: "https://scaler-lite.vercel.app/",
-        githubUrl: "https://github.com/janardannn/scaler-lite",
-        image: "/projects/scaler-lite.jpg",
+        title: "Finance tracker - A fullstack online financial expense tracker platform",
+        description: "A full-stack personal finance management system built with the MERN stack, featuring secure JWT-based authentication and a responsive dashboard. Enables users to perform CRUD operations for income and expenses, manage categories, and export reports to Excel.",
+        tech: ["Node.js", "Express.js", "React", "MongoDB", "Tailwind CSS", "JWT Auth"],
+        liveUrl: "",
+        githubUrl: "",
+        image: "/projects/finance-tracker.png",
         stats: { stars: 1, forks: 0, contributors: 0 },
         featured: true,
         status: "Live"
     },
     {
-        title: "rents.app - A fullstack user centric, map based rental platform.",
-        description: "A modern, full-stack rental platform focused on helping users find and secure rentals, PGs, and shared accommodations. Built using Next.js, TypeScript and Map using Mapbox API.",
-        tech: ["Next.js", "TypeScript", "Mapbox API", "PostgreSQL", "Prisma", "TailwindCSS"],
-        liveUrl: "https://rents-app-theta.vercel.app/",
-        githubUrl: "https://github.com/janardannn/rents.app",
-        image: "/projects/rents.app.jpg",
+        title: "Synchro Code - A collaborative code editor with real-time synchronization.",
+        description: "A real-time collaborative coding platform built with the MERN stack and Socket.IO, enabling multiple users to code together in synchronized virtual rooms. Includes unique room generation, user identification, and a customizable syntax-highlighted editor. Ensures instant updates and seamless collaboration across all connected users.",
+        tech: ["Node.js", "Express.js", "React", "MongoDB", "Socket.IO"],
+        liveUrl: "",
+        githubUrl: "",
+        image: "/projects/synchro-code.png",
         stats: { stars: 0, forks: 0, contributors: 0 },
         featured: true,
         status: "Development"
     },
     {
-        title: "Air Cargo",
-        description: "A full-stack web app for booking and tracking air cargo shipments, built with the PERN stack. It provides a complete shipment timeline from origin to delivery, with concurrency locking powered by Redis to ensure reliable updates.",
-        tech: ["React", "Node.js", "TypeScript", "Redis", "PostgreSQL", "Prisma", "Winston", "jest", "Tailwind CSS"],
+        title: "Metro Yatra - A shortest paths, fares, and interchanges finder for metro rail networks.",
+        description: "A C++ based metro route optimization system implementing Dijkstra’s algorithm with STL containers for shortest path computation. Includes a fare calculation module that processes metro fare data from CSV files using file handling techniques.",
+        tech: ["C++", "STL", "File Handling", "Dijkstra's Algorithm", "Graph Data Structures",],
         liveUrl: "",
-        githubUrl: "https://github.com/janardannn/air-cargo",
-        image: "/projects/air-cargo.jpg",
+        githubUrl: "https://github.com/RishiSrivastawa/Metro-Yatra",
+        image: "/projects/metro-yatra.jpg",
         stats: { stars: 0, forks: 0, contributors: 0 },
         featured: false,
-        status: "Beta"
+        status: "Development"
     },
     {
-        title: "Chexkmate",
-        description: "Chexkmate is a chess game analysis and tactics training app designed to help players improve their skills. It offers game analysis, tactical puzzles, and performance tracking to enhance chess proficiency.",
-        tech: ["Next.js", "TypeScript", "Web Workers", "Stockfish.js", "Tailwind CSS"],
-        liveUrl: "https://chexkmate.vercel.app/",
-        githubUrl: "https://github.com/janardannn/chexkmate",
-        image: "/projects/chexkmate.jpg",
+        title: "rishi.xyz - My personal portfolio website to showcase my skills and projects.",
+        description: "A personal portfolio website built with Next.js and Tailwind CSS to showcase my projects, skills, and experience.",
+        tech: ["Next.js", "TypeScript", "Shadcn UI", "Tailwind CSS", "Framer Motion"],
+        liveUrl: "",
+        githubUrl: "https://github.com/RishiSrivastawa/rishisrivastawa.xyz",
+        image: "/projects/rishi.xyz.png",
         stats: { stars: 0, forks: 0, contributors: 0 },
         featured: false,
         status: "Development"
@@ -294,7 +294,7 @@ export default function Projects() {
                         variant="outline"
                         className="border-2 border-gray-600 bg-gray-800/50 text-gray-300 hover:scale-105 transition-transform duration-200"
                         onClick={() => {
-                            window.open("https://github.com/janardannn?tab=repositories", "_blank")
+                            window.open("https://github.com/RishiSrivastawa?tab=repositories", "_blank")
                         }}
                     >
                         View All Projects <ArrowRight className="ml-2 h-4 w-4" />

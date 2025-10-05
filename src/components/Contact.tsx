@@ -14,14 +14,14 @@ const contactMethods = [
         icon: Mail,
         color: "from-emerald-500 to-emerald-600"
     },
-    // {
-    //     title: "Schedule a Call",
-    //     description: "Let's discuss your project",
-    //     value: "Book a meeting",
-    //     href: "https://cal.com",
-    //     icon: MessageCircle,
-    //     color: "from-green-500 to-green-600"
-    // },
+    {
+        title: "Schedule a Call",
+        description: "Let's discuss your project",
+        value: "Book a meeting",
+        href: "https://cal.com",
+        icon: MessageCircle,
+        color: "from-green-500 to-green-600"
+    },
     {
         title: "Phone",
         description: "Give me a call",
@@ -238,7 +238,7 @@ export default function Contact() {
                                 Send me an Email
                             </a>
                         </Button>
-                        {/* <Button
+                        <Button
                             asChild
                             size="lg"
                             variant="outline"
@@ -248,7 +248,7 @@ export default function Contact() {
                                 <MessageCircle className="mr-2 h-5 w-5" />
                                 Schedule a Call
                             </a>
-                        </Button> */}
+                        </Button>
                     </div>
                 </motion.div>
             </div>
