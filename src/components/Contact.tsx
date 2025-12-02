@@ -135,13 +135,19 @@ export default function Contact() {
                                     <Button
                                         asChild
                                         variant="outline"
-                                        className="border-2 border-gray-600 bg-gray-800/50 text-gray-300 hover:scale-105 transition-transform duration-200"
-                                    >
-                                        <a href={method.href} target={method.href.startsWith('http') ? "_blank" : undefined}>
-                                            <Send className="mr-2 h-4 w-4" />
-                                            {method.value}
+                                        className="w-full border-2 border-gray-600 bg-gray-800/50 text-gray-300
+                                                    hover:scale-105 transition-transform duration-200 overflow-hidden"
+                                        >
+                                        <a
+                                            href={method.href}
+                                            target={method.href.startsWith("http") ? "_blank" : undefined}
+                                            className="flex items-center justify-center gap-2 w-full"
+                                        >
+                                            <Send className="mr-2 h-4 w-4 shrink-0" />
+                                            <span className="text-sm truncate">{method.value}</span>
                                         </a>
-                                    </Button>
+                                        </Button>
+
                                 </CardContent>
                             </Card>
                         </motion.div>

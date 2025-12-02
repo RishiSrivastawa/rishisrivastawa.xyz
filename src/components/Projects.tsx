@@ -7,17 +7,30 @@ import { ExternalLink, Github, ArrowRight, Star, Users, GitFork } from "lucide-r
 import Image from "next/image"
 
 const projects = [
+
     {
-        title: "Finance tracker - A fullstack online financial expense tracker platform",
-        description: "A full-stack personal finance management system built with the MERN stack, featuring secure JWT-based authentication and a responsive dashboard. Enables users to perform CRUD operations for income and expenses, manage categories, and export reports to Excel.",
-        tech: ["Node.js", "Express.js", "React", "MongoDB", "Tailwind CSS", "JWT Auth"],
-        liveUrl: "",
-        githubUrl: "",
-        image: "/projects/finance-tracker.png",
-        stats: { stars: 1, forks: 0, contributors: 0 },
-        featured: true,
-        status: "Live"
+    title: "Finance Tracker - A full-stack AI-powered personal expense tracking platform",
+    description: "A MERN stack finance management platform featuring secure JWT authentication, RESTful APIs, and a responsive Tailwind CSS dashboard. Integrated an OCR + LLM (Gemini API) automation pipeline to extract amount, date, and category from receipt images. Includes dynamic real-time financial insights and visualizations using Chart.js.",
+    tech: ["Node.js", "Express.js", "React", "MongoDB", "Tailwind CSS", "JWT", "REST API", "OCR", "Gemini API", "Chart.js"],
+    liveUrl: "",
+    githubUrl: "https://github.com/RishiSrivastawa/Finance-tracker",
+    image: "/projects/finance-tracker.png",
+    stats: { stars: 2, forks: 0, contributors: 0 },
+    featured: true,
+    status: "Live"
+},
+    {
+    title: "Patient Care Hub - A microservices-based patient management system.",
+    description: "A scalable patient management platform built using Java, Spring Boot, and REST APIs. Implements an event-driven architecture with Kafka, containerized microservices using Docker, and AWS integration for reliable cloud deployment. Optimized database performance to ensure efficient, resilient, and high-availability operations.",
+    tech: ["Java", "Spring Boot", "AWS", "Docker", "Kafka", "REST APIs"],
+    liveUrl: "",
+    githubUrl: "",
+    image: "/projects/patient-care-hub.png",
+    stats: { stars: 0, forks: 0, contributors: 0 },
+    featured: true,
+    status: "Development"
     },
+
     {
         title: "Synchro Code - A collaborative code editor with real-time synchronization.",
         description: "A real-time collaborative coding platform built with the MERN stack and Socket.IO, enabling multiple users to code together in synchronized virtual rooms. Includes unique room generation, user identification, and a customizable syntax-highlighted editor. Ensures instant updates and seamless collaboration across all connected users.",
@@ -25,9 +38,9 @@ const projects = [
         liveUrl: "",
         githubUrl: "",
         image: "/projects/synchro-code.png",
-        stats: { stars: 0, forks: 0, contributors: 0 },
+        stats: { stars: 2, forks: 0, contributors: 0 },
         featured: true,
-        status: "Development"
+        status: "Completed"
     },
     {
         title: "Metro Yatra - A shortest paths, fares, and interchanges finder for metro rail networks.",
@@ -38,18 +51,18 @@ const projects = [
         image: "/projects/metro-yatra.jpg",
         stats: { stars: 0, forks: 0, contributors: 0 },
         featured: false,
-        status: "Development"
+        status: "Completed"
     },
     {
         title: "rishi.xyz - My personal portfolio website to showcase my skills and projects.",
         description: "A personal portfolio website built with Next.js and Tailwind CSS to showcase my projects, skills, and experience.",
         tech: ["Next.js", "TypeScript", "Shadcn UI", "Tailwind CSS", "Framer Motion"],
-        liveUrl: "",
+        liveUrl: "https://rishisrivastawa-xyz.vercel.app/",
         githubUrl: "https://github.com/RishiSrivastawa/rishisrivastawa.xyz",
         image: "/projects/rishi.xyz.png",
         stats: { stars: 0, forks: 0, contributors: 0 },
         featured: false,
-        status: "Development"
+        status: "Live"
     }
 ]
 

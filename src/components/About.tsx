@@ -14,33 +14,46 @@ import {
 } from "lucide-react";
 
 const skills = [
+  // ---------- Frontend ----------
   { name: "JavaScript", level: "Proficient", category: "Frontend" },
   { name: "TypeScript", level: "Proficient", category: "Frontend" },
   { name: "React", level: "Proficient", category: "Frontend" },
   { name: "Next.js", level: "Proficient", category: "Frontend" },
   { name: "HTML/CSS", level: "Proficient", category: "Frontend" },
   { name: "Bootstrap", level: "Proficient", category: "Frontend" },
-  { name: "Tailwind CSS", level: "Developing", category: "Frontend" },
+  { name: "Tailwind CSS", level: "Proficient", category: "Frontend" },
+  { name: "Chart.js", level: "Familiar", category: "Frontend" },
 
-  { name: "Node.js", level: "Familiar", category: "Backend" },
-  { name: "Express.js", level: "Familiar", category: "Backend" },
-  // { name: "Python", level: "Learning", category: "Backend" },
-  // { name: "Flask", level: "Familiar", category: "Backend" },
+  // ---------- Backend ----------
+  { name: "Node.js", level: "Proficient", category: "Backend" },
+  { name: "Express.js", level: "Proficient", category: "Backend" },
+  { name: "Java", level: "Proficient", category: "Backend" },
+  { name: "Spring Boot", level: "Familiar", category: "Backend" },
   { name: "REST APIs", level: "Proficient", category: "Backend" },
+  { name: "Kafka", level: "Familiar", category: "Backend" },
 
-  { name: "MongoDB", level: "Familiar", category: "Database" },
-  { name: "SQL", level: "Familiar", category: "Database" },
-  // { name: "Prisma", level: "Familiar", category: "Database" },
+  // ---------- Database ----------
+  { name: "MongoDB", level: "Proficient", category: "Database" },
+  { name: "SQL", level: "Proficient", category: "Database" },
+  // ---------- AI & Automation ----------
+  { name: "OCR", level: "Familiar", category: "AI & Automation" },
+  { name: "LLM", level: "Familiar", category: "AI & Automation" },
 
+  // ---------- Programming ----------
   { name: "C++", level: "Familiar", category: "Programming" },
-  { name: "Java", level: "Learning", category: "Programming" },
+  { name: "Java", level: "Proficient", category: "Programming" },
 
-  { name: "Git", level: "Familiar", category: "Tools" },
-  // { name: "Docker", level: "Familiar", category: "Tools" },
-  // { name: "Nginx", level: "Familiar", category: "Tools" },
-  // { name: "Github Actions", level: "Familiar", category: "Tools" },
+  // ---------- Tools ----------
+  { name: "Git", level: "Proficient", category: "Tools" },
+  { name: "Docker", level: "Familiar", category: "Tools" },
+  { name: "Postman", level: "Proficient", category: "Tools" },
   { name: "MySQL Workbench", level: "Familiar", category: "Tools" },
+  { name: "Vercel", level: "Familiar", category: "Tools" },
+
+  // ---------- Cloud ----------
+  { name: "AWS", level: "Familiar", category: "Cloud" },
 ];
+
 
 const education = [
   {
@@ -81,8 +94,8 @@ const experience = [
 
 const stats = [
   { label: "Years Learning", value: "3+", icon: Calendar },
-  { label: "Projects Built", value: "5+", icon: Briefcase },
-  { label: "Technologies Used", value: "15+", icon: Code2 },
+  { label: "Projects Built", value: "8+", icon: Briefcase },
+  { label: "Technologies Used", value: "25+", icon: Code2 },
   { label: "Cups of Coffee", value: "∞", icon: Coffee },
 ];
 
