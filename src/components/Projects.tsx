@@ -12,7 +12,7 @@ const projects = [
     title: "Finance Tracker - A full-stack AI-powered personal expense tracking platform",
     description: "A MERN stack finance management platform featuring secure JWT authentication, RESTful APIs, and a responsive Tailwind CSS dashboard. Integrated an OCR + LLM (Gemini API) automation pipeline to extract amount, date, and category from receipt images. Includes dynamic real-time financial insights and visualizations using Chart.js.",
     tech: ["Node.js", "Express.js", "React", "MongoDB", "Tailwind CSS", "JWT", "REST API", "OCR", "Gemini API", "Chart.js"],
-    liveUrl: "",
+    liveUrl: "https://finance-tracker-rishi.vercel.app/",
     githubUrl: "https://github.com/RishiSrivastawa/Finance-tracker",
     image: "/projects/finance-tracker.png",
     stats: { stars: 2, forks: 0, contributors: 0 },
@@ -24,7 +24,7 @@ const projects = [
     description: "A scalable patient management platform built using Java, Spring Boot, and REST APIs. Implements an event-driven architecture with Kafka, containerized microservices using Docker, and AWS integration for reliable cloud deployment. Optimized database performance to ensure efficient, resilient, and high-availability operations.",
     tech: ["Java", "Spring Boot", "AWS", "Docker", "Kafka", "REST APIs"],
     liveUrl: "",
-    githubUrl: "",
+    githubUrl: "https://github.com/RishiSrivastawa/Patient-Management",
     image: "/projects/patient-care-hub.png",
     stats: { stars: 0, forks: 0, contributors: 0 },
     featured: true,
@@ -54,7 +54,7 @@ const projects = [
         status: "Completed"
     },
     {
-        title: "rishi.xyz - My personal portfolio website to showcase my skills and projects.",
+        title: "rishisrivastawa.xyz - My personal portfolio website to showcase my skills and projects.",
         description: "A personal portfolio website built with Next.js and Tailwind CSS to showcase my projects, skills, and experience.",
         tech: ["Next.js", "TypeScript", "Shadcn UI", "Tailwind CSS", "Framer Motion"],
         liveUrl: "https://rishisrivastawa-xyz.vercel.app/",
