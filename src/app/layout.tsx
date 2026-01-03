@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "rishi.xyz",
+    default: "rishisrivastawa.xyz",
     template: "%s | Rishi Srivastawa",
   },
   description: "Software Engineer exploring how to build reliable, scalable, and human-focused digital products. I work with React, Next.js, TypeScript, and Node.js.",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     "Web Development",
     "Backend Developer"
   ],
-  authors: [{ name: "Rishi Srivastawa", url: "https://rishi.xyz" }],
+  authors: [{ name: "Rishi Srivastawa", url: "https://rishisrivastawa-xyz.vercel.app/" }],
   creator: "Rishi Srivastawa",
   publisher: "Rishi Srivastawa",
   formatDetection: {
@@ -39,14 +39,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://rishi.xyz"),
+  metadataBase: new URL("https://rishisrivastawa-xyz.vercel.app/"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://rishi.xyz",
+    url: "https://rishisrivastawa-xyz.vercel.app/",
     title: "Rishi Srivastawa- Software Engineer",
     description: "Software Engineer exploring how to build reliable, scalable, and human-focused digital products. I work with React, Next.js, TypeScript, and Node.js.",
     siteName: "rishi's personal website & blog",

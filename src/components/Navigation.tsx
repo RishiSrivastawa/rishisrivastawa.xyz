@@ -38,7 +38,7 @@ export default function Navigation() {
                         whileHover={{ scale: 1.05 }}
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
                     >
-                        <a href="#home">rishi.xyz</a>
+                        <a href="#home">rishisrivastawa.xyz</a>
                     </motion.div>
 
                     {/* Desktop Navigation */}
